@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "drivers": {
+    "kimi_antonelli": {
+      "config": "kimi_antonelli/config.json",
+      "status": "available"
+    },
+    "max_verstappen": {
+      "config": "max_verstappen/config.json",
+      "status": "available"
+    }
+  },
+  "planned_driver_ids": [
+    "lewis_hamilton",
+    "sebastian_vettel"
+  ]
+}

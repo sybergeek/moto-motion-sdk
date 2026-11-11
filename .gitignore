@@ -1,0 +1,117 @@
+# Local Python environments and interpreter caches.
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local editor, OS, and tooling state.
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+.python-version
+
+# Generated media, renders, previews, and export packages.
+media/
+output/
+renders/
+dist/
+build/
+*.egg-info/
+.tmp/
+
+# Reel-specific production work is kept locally and is not part of the public SDK.
+reel_*/
+data/
+docs/reels/
+docs/future-upgrades/
+docs/creative/reel_004_review.md
+
+# One-off reel/carousel manifests and production examples.
+examples/reel_*.py
+examples/reel_*.json
+examples/future_reel_*.json
+examples/dirty_air_carousel.py
+examples/dirty_air_carousel_manifest.json
+examples/mercedes_ninth_title_carousel.py
+examples/mercedes_ninth_title_carousel_manifest.json
+examples/verstappen_sao_paulo_masterclass.py
+examples/verstappen_sao_paulo_masterclass_manifest.json
+examples/f1_wheel_offset_sample.py
+
+# Reel-specific production scripts and local experiments.
+scripts/build_reel_*.py
+scripts/export_reel_*.sh
+scripts/render_narrated_reel_*.sh
+scripts/render_reel_003_preview.sh
+scripts/analyze_reel_004_footage.py
+scripts/demo_footage_overlay.py
+scripts/generate_kimi_*.py
+scripts/generate_max_*.py
+
+# Local inspection and quality-gate artifacts.
+.asset-inspection/
+.codex/
+.agentSessionData/
+
+# One-off local asset preparation scripts.
+scripts/crop_motogp_sticker_grid.swift
+
+# Local logs and temporary export files.
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Licensed third-party vehicle assets and derived inspection artifacts.
+assets/**/*.zip
+
+# Downloaded event photography and other one-off production references.
+# Keep the source URLs and attribution in manifests/docs instead.
+assets/references/
+
+# Large local footage inputs and generated footage derivatives.
+assets/footage/
+
+# One-off root-level reference images supplied for individual reels/carousels.
+assets/*.[Pp][Nn][Gg]
+assets/*.[Jj][Pp][Gg]
+assets/*.[Ww][Ee][Bb][Pp]
+
+# Local source audio used to build the reusable SFX library.
+assets/*.mp3
+assets/*.m4a
+assets/*.aac
+
+# Derived sticker-grid tiles; rider outputs and registries remain trackable.
+assets/characters/motogp_raster/source_tiles/
+
+# Optional local MotoGP raster pack; reusable renderer code remains public.
+assets/characters/motogp_raster/
+
+# Optional local superbike asset pack and its production-specific integration.
+assets/vehicles/superbike/
+docs/asset-integrations/motogp-master-geometry.md
+
+# Typeface candidates used for local comparison only; production typography is
+# resolved from the configured environment and license metadata is documented.
+assets/fonts/candidates/
+
+# Optional documentation not included in the initial public SDK boundary.
+docs/asset-integrations/yamaha-r1-superbike-r1-v1.md
+
+# Licensed and user-supplied audio must not be redistributed by default.
+assets/sfx/originals/
+assets/sfx/processed/motorsport/
+
+# Third-party footage is local production input, not a distributable SDK asset.
+assets/footage/**/originals/
+assets/footage/**/derived/

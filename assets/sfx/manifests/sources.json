@@ -1,0 +1,114 @@
+{
+  "schema": "moto-motion.sfx-sources.v1",
+  "sources": [
+    {
+      "id": "motorsport.generic.vehicle_pass.fast",
+      "name": "Fast generic vehicle pass",
+      "creator": "moeeza3",
+      "url": "https://pixabay.com/ja/sound-effects/%E5%B8%82-fast-car-passing-sound-395038/",
+      "license": "Pixabay Content License",
+      "download_date": "2026-11-07",
+      "redistribution": "not established; exclude source and derived audio from public repositories",
+      "start": 0.344,
+      "end": 4.047,
+      "tags": [
+        "vehicle",
+        "generic",
+        "fast",
+        "pass",
+        "whoosh"
+      ],
+      "recommended_events": [
+        "vehicle.flyby"
+      ],
+      "source": "assets/moeeza3-fast-car-passing-sound-395038.mp3",
+      "analysis": {
+        "inspection": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "8.097938",
+            "bit_rate": "255999"
+          },
+          "source": "assets/moeeza3-fast-car-passing-sound-395038.mp3"
+        },
+        "silence_regions": [
+          [
+            0.0,
+            0.404195
+          ],
+          [
+            3.987052,
+            8.097959
+          ]
+        ],
+        "candidate_events": [
+          [
+            0.34419500000000003,
+            4.047052
+          ]
+        ]
+      }
+    },
+    {
+      "id": "motorsport.generic.vehicle_pass.race",
+      "name": "Race-style generic vehicle pass",
+      "creator": "SoundReality",
+      "url": "https://pixabay.com/sound-effects/film-special-effects-f1-151254/",
+      "license": "Pixabay Content License",
+      "download_date": "2026-11-07",
+      "redistribution": "not established; exclude source and derived audio from public repositories",
+      "start": 0.0,
+      "end": 3.619,
+      "tags": [
+        "vehicle",
+        "generic",
+        "race",
+        "pass",
+        "engine"
+      ],
+      "recommended_events": [
+        "vehicle.accelerate",
+        "vehicle.flyby"
+      ],
+      "source": "assets/soundreality-f1-151254.mp3",
+      "analysis": {
+        "inspection": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "6.024000",
+            "bit_rate": "256000"
+          },
+          "source": "assets/soundreality-f1-151254.mp3"
+        },
+        "silence_regions": [
+          [
+            3.559125,
+            6.024
+          ]
+        ],
+        "candidate_events": [
+          [
+            0.0,
+            3.619125
+          ]
+        ]
+      }
+    }
+  ]
+}

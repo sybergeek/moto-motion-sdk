@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="RaceXplained tucked MotoGP rider master">
+  <g id="rider" stroke="#0B1118" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <g id="helmet" fill="#F12E2E"><path d="M286 111 C300 60 357 35 407 63 C448 86 466 128 455 171 L421 209 L337 193 L298 158Z"/><path d="M382 127 L449 127 L430 171 L389 187Z" fill="#18232E"/><path d="M315 88 L357 70 L341 154 L308 143Z" fill="#F4B83F"/></g>
+    <g id="neck" fill="#F04A32"><path d="M339 185 L398 189 L405 224 L353 231Z"/></g>
+    <g id="torso" fill="#F12E2E"><path d="M296 194 C352 181 405 207 447 247 L402 326 L273 291 L256 231Z"/><path d="M315 213 L358 201 L388 273 L341 287Z" fill="#F04A32"/></g>
+    <g id="upper-arms" fill="#F12E2E"><path d="M399 218 L455 252 L491 294 L460 317 L418 280 L370 250Z"/></g>
+    <g id="forearms" fill="#F04A32"><path d="M458 282 L508 298 L563 270 L579 301 L516 338 L469 320Z"/></g>
+    <g id="hands" fill="#F4B83F"><path d="M552 263 L580 266 L595 287 L576 304 L551 291Z"/></g>
+    <g id="hips" fill="#F12E2E"><path d="M283 278 L404 313 L433 363 L357 390 L264 340Z"/></g>
+    <g id="thighs" fill="#F04A32"><path d="M338 337 L413 341 L468 378 L428 420 L366 389Z"/></g>
+    <g id="lower-legs" fill="#F12E2E"><path d="M421 403 L473 379 L526 414 L490 443 L433 435Z"/></g>
+    <g id="boots" fill="#18232E"><path d="M483 409 L532 411 L565 443 L544 465 L472 453 L459 436Z"/></g>
+    <g id="rider-anchors" fill="#00FFFF" opacity="0"><circle id="helmet_center" cx="363" cy="127" r="3"/><circle id="neck_anchor" cx="369" cy="204" r="3"/><circle id="shoulder" cx="397" cy="223" r="3"/><circle id="elbow" cx="462" cy="288" r="3"/><circle id="wrist" cx="553" cy="282" r="3"/><circle id="hip" cx="335" cy="322" r="3"/><circle id="knee" cx="416" cy="383" r="3"/><circle id="ankle" cx="492" cy="427" r="3"/><circle id="boot_contact" cx="532" cy="445" r="3"/></g>
+  </g>
+</svg>

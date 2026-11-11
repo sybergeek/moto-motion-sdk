@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">RaceXplained championship trophy</title>
+  <g id="trophy-cup" fill="#F4C95D" stroke="#F4F7FA" stroke-linecap="round" stroke-linejoin="round">
+    <path id="cup" d="M17 10h30v16c0 10-6.7 17-15 17s-15-7-15-17V10Z" stroke-width="3"/>
+    <path id="left-handle" d="M17 16H9c0 9 3.6 15 12 15" fill="none" stroke="#F4C95D" stroke-width="4"/>
+    <path id="right-handle" d="M47 16h8c0 9-3.6 15-12 15" fill="none" stroke="#F4C95D" stroke-width="4"/>
+    <path id="stem" d="M32 43v8" fill="none" stroke="#F4C95D" stroke-width="5"/>
+    <path id="base" d="M20 55h24" fill="none" stroke="#F4C95D" stroke-width="6"/>
+  </g>
+</svg>

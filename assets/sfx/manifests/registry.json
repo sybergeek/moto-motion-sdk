@@ -1,0 +1,479 @@
+{
+  "schema": "moto-motion.sfx-registry.v1",
+  "assets": [
+    {
+      "id": "ui.pop.soft",
+      "name": "Pop Soft",
+      "category": "ui.pop",
+      "file": "assets/sfx/processed/ui/pop_soft.wav",
+      "duration_seconds": 0.12,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "pop",
+        "soft"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.click.mechanical",
+      "name": "Click Mechanical",
+      "category": "ui.click",
+      "file": "assets/sfx/processed/ui/click_mechanical.wav",
+      "duration_seconds": 0.09,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "click",
+        "mechanical"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.whoosh.short",
+      "name": "Whoosh Short",
+      "category": "ui.whoosh",
+      "file": "assets/sfx/processed/ui/whoosh_short.wav",
+      "duration_seconds": 0.28,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "whoosh",
+        "short"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.whoosh.long",
+      "name": "Whoosh Long",
+      "category": "ui.whoosh",
+      "file": "assets/sfx/processed/ui/whoosh_long.wav",
+      "duration_seconds": 0.72,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "whoosh",
+        "long"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.impact.soft",
+      "name": "Impact Soft",
+      "category": "ui.impact",
+      "file": "assets/sfx/processed/ui/impact_soft.wav",
+      "duration_seconds": 0.24,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "impact",
+        "soft"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.impact.cinematic",
+      "name": "Impact Cinematic",
+      "category": "ui.impact",
+      "file": "assets/sfx/processed/ui/impact_cinematic.wav",
+      "duration_seconds": 0.52,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "impact",
+        "cinematic"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.counter.tick",
+      "name": "Counter Tick",
+      "category": "ui.counter",
+      "file": "assets/sfx/processed/ui/counter_tick.wav",
+      "duration_seconds": 0.055,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "counter",
+        "tick"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.counter.complete",
+      "name": "Counter Complete",
+      "category": "ui.counter",
+      "file": "assets/sfx/processed/ui/counter_complete.wav",
+      "duration_seconds": 0.19,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "counter",
+        "complete"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.reveal.positive",
+      "name": "Reveal Positive",
+      "category": "ui.reveal",
+      "file": "assets/sfx/processed/ui/reveal_positive.wav",
+      "duration_seconds": 0.38,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "reveal",
+        "positive"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.reveal.negative",
+      "name": "Reveal Negative",
+      "category": "ui.reveal",
+      "file": "assets/sfx/processed/ui/reveal_negative.wav",
+      "duration_seconds": 0.33,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "reveal",
+        "negative"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.character.entrance",
+      "name": "Character Entrance",
+      "category": "ui.character",
+      "file": "assets/sfx/processed/ui/character_entrance.wav",
+      "duration_seconds": 0.32,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "character",
+        "entrance"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.celebration.accent",
+      "name": "Celebration Accent",
+      "category": "ui.celebration",
+      "file": "assets/sfx/processed/ui/celebration_accent.wav",
+      "duration_seconds": 0.44,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "celebration",
+        "accent"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.slide.transition",
+      "name": "Slide Transition",
+      "category": "ui.slide",
+      "file": "assets/sfx/processed/ui/slide_transition.wav",
+      "duration_seconds": 0.46,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "slide",
+        "transition"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.trophy.reveal",
+      "name": "Trophy Reveal",
+      "category": "ui.trophy",
+      "file": "assets/sfx/processed/ui/trophy_reveal.wav",
+      "duration_seconds": 0.62,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "trophy",
+        "reveal"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "ui.notification.short",
+      "name": "Notification Short",
+      "category": "ui.notification",
+      "file": "assets/sfx/processed/ui/notification_short.wav",
+      "duration_seconds": 0.16,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -18,
+      "tags": [
+        "ui",
+        "notification",
+        "short"
+      ],
+      "source": {
+        "kind": "moto_motion_original_procedural",
+        "license": "Project-owned",
+        "attribution": null
+      },
+      "processing": {
+        "generator": "moto_motion.audio.builtin",
+        "seed": 7
+      },
+      "recommended_events": []
+    },
+    {
+      "id": "motorsport.generic.vehicle_pass.fast",
+      "name": "Fast generic vehicle pass",
+      "category": "motorsport.generic.vehicle_pass",
+      "file": "assets/sfx/processed/motorsport/generic/fast.wav",
+      "duration_seconds": 3.703,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -14,
+      "tags": [
+        "vehicle",
+        "generic",
+        "fast",
+        "pass",
+        "whoosh"
+      ],
+      "source": {
+        "original_file": "assets/moeeza3-fast-car-passing-sound-395038.mp3",
+        "start_seconds": 0.344,
+        "end_seconds": 4.047,
+        "creator": "moeeza3",
+        "url": "https://pixabay.com/ja/sound-effects/%E5%B8%82-fast-car-passing-sound-395038/",
+        "license": "Pixabay Content License",
+        "download_date": "2026-11-07",
+        "redistribution": "not established; exclude source and derived audio from public repositories",
+        "attribution": "Not required by the Pixabay Content License; creator credit retained in manifest."
+      },
+      "processing": {
+        "source_file": "assets/moeeza3-fast-car-passing-sound-395038.mp3",
+        "start_seconds": 0.344,
+        "end_seconds": 4.047,
+        "duration_seconds": 3.703,
+        "fades_seconds": 0.025,
+        "sample_rate": 48000,
+        "filters": "atrim=start=0.344000:end=4.047000,asetpts=N/SR/TB,aresample=48000,afade=t=in:st=0:d=0.025000,afade=t=out:st=3.678000:d=0.025000,loudnorm=I=-20.0:TP=-3:LRA=11",
+        "config": {
+          "silence_db": -40.0,
+          "minimum_silence_seconds": 0.25,
+          "context_seconds": 0.06,
+          "min_event_seconds": 0.3,
+          "fade_seconds": 0.025,
+          "sample_rate": 48000,
+          "target_lufs": -20.0
+        }
+      },
+      "recommended_events": [
+        "vehicle.flyby"
+      ]
+    },
+    {
+      "id": "motorsport.generic.vehicle_pass.race",
+      "name": "Race-style generic vehicle pass",
+      "category": "motorsport.generic.vehicle_pass",
+      "file": "assets/sfx/processed/motorsport/generic/race.wav",
+      "duration_seconds": 3.619,
+      "sample_rate": 48000,
+      "channels": 2,
+      "default_gain_db": -14,
+      "tags": [
+        "vehicle",
+        "generic",
+        "race",
+        "pass",
+        "engine"
+      ],
+      "source": {
+        "original_file": "assets/soundreality-f1-151254.mp3",
+        "start_seconds": 0.0,
+        "end_seconds": 3.619,
+        "creator": "SoundReality",
+        "url": "https://pixabay.com/sound-effects/film-special-effects-f1-151254/",
+        "license": "Pixabay Content License",
+        "download_date": "2026-11-07",
+        "redistribution": "not established; exclude source and derived audio from public repositories",
+        "attribution": "Not required by the Pixabay Content License; creator credit retained in manifest."
+      },
+      "processing": {
+        "source_file": "assets/soundreality-f1-151254.mp3",
+        "start_seconds": 0.0,
+        "end_seconds": 3.619,
+        "duration_seconds": 3.619,
+        "fades_seconds": 0.025,
+        "sample_rate": 48000,
+        "filters": "atrim=start=0.000000:end=3.619000,asetpts=N/SR/TB,aresample=48000,afade=t=in:st=0:d=0.025000,afade=t=out:st=3.594000:d=0.025000,loudnorm=I=-20.0:TP=-3:LRA=11",
+        "config": {
+          "silence_db": -40.0,
+          "minimum_silence_seconds": 0.25,
+          "context_seconds": 0.06,
+          "min_event_seconds": 0.3,
+          "fade_seconds": 0.025,
+          "sample_rate": 48000,
+          "target_lufs": -20.0
+        }
+      },
+      "recommended_events": [
+        "vehicle.accelerate",
+        "vehicle.flyby"
+      ]
+    }
+  ]
+}

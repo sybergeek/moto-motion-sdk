@@ -1,0 +1,91 @@
+{
+  "schema": "moto-motion.narration.v1",
+  "project": "braking_later_explainer",
+  "title": "Why Braking Later Can Make You Slower",
+  "language": "en-US",
+  "duration_seconds": 24.6,
+  "format": {
+    "aspect_ratio": "9:16",
+    "preview": {
+      "width": 540,
+      "height": 960,
+      "fps": 30
+    },
+    "production": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 60
+    }
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice_id": "af_heart",
+    "speed": 1.08,
+    "style": "confident technical sports documentary",
+    "pace": "measured with crisp emphasis",
+    "energy": "controlled, building through the exit",
+    "pronunciation": {
+      "apex": "AY-peks",
+      "telemetry": "technical values are illustrative on-screen graphics"
+    }
+  },
+  "synthesis": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "normalization": "peak-minus-1db"
+  },
+  "segments": [
+    {
+      "id": "approach",
+      "start_seconds": 0.0,
+      "end_seconds": 3.0,
+      "text": "Braking later looks faster. But does it make you faster?",
+      "delivery": "Open with a short pause after faster; let the question land before the corner entry.",
+      "visual_cue": "Two cars approach the corner under the headline BRAKE LATER. LOSE TIME?",
+      "emphasis": ["later", "faster"]
+    },
+    {
+      "id": "braking_comparison",
+      "start_seconds": 3.0,
+      "end_seconds": 8.0,
+      "text": "The red car brakes late and carries more speed into the corner. The cyan car brakes earlier and turns in sooner.",
+      "delivery": "Use a clean contrast between the two strategies; avoid rushing the second sentence.",
+      "visual_cue": "LATE BRAKE and EARLY ROTATION trajectories, braking markers, TURN-IN and APEX callouts appear.",
+      "emphasis": ["brakes late", "turns in sooner"]
+    },
+    {
+      "id": "rotation_and_throttle",
+      "start_seconds": 8.0,
+      "end_seconds": 15.0,
+      "text": "The late-braking car enters faster, but it runs wider and waits longer before applying throttle. The earlier car rotates cleanly and gets back on power sooner.",
+      "delivery": "Build the sentence through enters faster, then soften briefly before the consequence: waits longer.",
+      "visual_cue": "RED / ENTRY and CYAN / EXIT telemetry panels compare entry speed, throttle delay, and throttle timing.",
+      "emphasis": ["runs wider", "waits longer", "back on power sooner"]
+    },
+    {
+      "id": "exit_gain",
+      "start_seconds": 15.0,
+      "end_seconds": 20.0,
+      "text": "And that difference compounds all the way down the straight. The car with the better exit starts pulling away.",
+      "delivery": "Increase momentum through the first sentence; give pulling away a decisive finish.",
+      "visual_cue": "Both cars exit onto the straight; the cyan car gains a visible gap beneath EXIT SPEED WINS.",
+      "emphasis": ["compounds", "better exit", "pulling away"]
+    },
+    {
+      "id": "final_freeze",
+      "start_seconds": 20.0,
+      "end_seconds": 24.6,
+      "text": "So the fastest entry is not always the fastest lap. Protect the exit, and the lap comes to you.",
+      "delivery": "Slow slightly for the first sentence. Deliver the final clause as the takeaway, with a brief pause before it.",
+      "visual_cue": "The racing-line comparison freezes under ENTRY SPEED ≠ FASTEST LAP.",
+      "emphasis": ["not always", "Protect the exit"]
+    }
+  ],
+  "mix": {
+    "voiceover_start_seconds": 0.15,
+    "music_duck_db": -5,
+    "effects_duck_db": -3,
+    "recommended_headroom_db": -3,
+    "notes": "Keep engine and transition effects audible at beat boundaries, but duck them under explanatory sentences. Do not add narration over the final 0.25 seconds so the takeaway can resolve cleanly."
+  }
+}

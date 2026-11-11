@@ -1,0 +1,19 @@
+{
+  "schema": "moto-motion.sfx-acquisition-shortlist.v1",
+  "status": "manual-download required; no third-party clips are bundled by this SDK",
+  "source_policy": "Use only an asset page that explicitly states the Pixabay Content License or CC0, re-check the individual page on download, and record creator/download date before ingestion.",
+  "candidates": [
+    {"event": "ui.whoosh.short", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/short%20whoosh/"},
+    {"event": "ui.whoosh.long", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/long%20whoosh/"},
+    {"event": "ui.pop.soft", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/ui%20pop/"},
+    {"event": "ui.click.mechanical", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/mechanical%20click/"},
+    {"event": "ui.impact.soft", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/soft%20impact/"},
+    {"event": "ui.impact.cinematic", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/cinematic%20impact/"},
+    {"event": "ui.counter.tick", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/counter%20tick/"},
+    {"event": "ui.reveal.positive", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/success%20reveal/"},
+    {"event": "ui.reveal.negative", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/negative%20reveal/"},
+    {"event": "ui.trophy.reveal", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/trophy%20reveal/"},
+    {"event": "vehicle.tyre_scrub", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/tyre%20squeal/"},
+    {"event": "motogp.generic.flyby", "source": "Pixabay", "search_url": "https://pixabay.com/sound-effects/search/motorcycle%20pass%20by/"}
+  ]
+}

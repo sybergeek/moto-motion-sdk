@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 390" role="img" aria-label="RaceXplained full-face MotoGP helmet badge master">
+  <g id="helmet-badge" stroke="#0B1118" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <path id="outer-shell" fill="#F12E2E" d="M50 184 C54 88 124 31 229 31 C333 31 426 80 453 163 L422 203 L448 237 L420 306 L343 347 L145 350 L74 319 L42 262Z"/>
+    <path id="visor-opening" fill="#18232E" d="M44 177 L254 177 L291 207 L276 282 L232 309 L53 291 L39 244Z"/>
+    <path id="visor-trim" fill="none" stroke="#D7DEE6" d="M48 175 L249 175"/>
+    <circle id="visor-pivot" fill="#718090" cx="279" cy="205" r="32"/>
+    <circle id="pivot-cap" fill="#18232E" cx="279" cy="205" r="14"/>
+    <path id="chin-bar" fill="#F04A32" d="M48 292 L231 309 L344 277 L422 237 L420 306 L343 347 L145 350 L74 319Z"/>
+    <path id="livery-accent" fill="#FFFFFF" stroke="none" d="M142 49 L231 38 L150 139 L98 143Z"/>
+    <path id="livery-accent-lower" fill="#FFFFFF" stroke="none" d="M115 295 L180 304 L142 348 L94 326Z"/>
+    <path id="vent" fill="#18232E" d="M98 84 L174 59 L157 91 L97 112Z"/>
+    <g id="anchors" fill="#00FFFF" opacity="0"><circle id="helmet_center" cx="246" cy="190" r="3"/><circle id="visor_center" cx="155" cy="225" r="3"/><circle id="number_center" cx="354" cy="230" r="3"/></g>
+  </g>
+</svg>

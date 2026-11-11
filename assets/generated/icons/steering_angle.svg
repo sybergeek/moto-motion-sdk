@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <g fill="none" stroke="#F5F7FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <style>.secondary{stroke:#35D5E5}</style><circle cx="32" cy="34" r="20"/><circle cx="32" cy="34" r="5"/><path d="M15 25h34M32 34l15 13"/><path d="M17 13a24 24 0 0 1 30 0" class="secondary"/>
+  </g>
+</svg>

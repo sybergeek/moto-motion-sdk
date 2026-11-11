@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "max_verstappen",
+  "display_name": "Max Verstappen",
+  "driver_number": 3,
+  "design_version": 1,
+  "source_note": "Original RaceXplained editorial illustration. Visual cues were informed by public driver imagery; no illustration was copied or traced.",
+  "canvas": { "width": 512, "height": 512, "view_box": "0 0 512 512" },
+  "canonical_svg": "canonical.svg",
+  "variants": {
+    "neutral": "variants/neutral.svg",
+    "celebrating": "variants/celebrating.svg"
+  },
+  "layer_ids": ["torso", "number", "neck", "head", "hair", "eyes", "eyebrows", "nose", "mouth", "left_arm", "right_arm"],
+  "number": {
+    "anchor": [256, 433],
+    "height": 70,
+    "font_family": "Barlow Condensed",
+    "font_weight": "BOLD",
+    "color": "#f4fbfa"
+  },
+  "facial_geometry": {
+    "face_width": 146,
+    "eye_width": 32,
+    "eye_height": 26,
+    "eye_gap": 28,
+    "eye_centers": [[226, 187], [286, 187]],
+    "hairstyle": { "direction": "subtle side sweep", "volume": "low", "part": "soft left", "silhouette": "single compact outer shape with four irregular front tufts" }
+  },
+  "anchors": {
+    "character_origin": [256, 496],
+    "head_center": [256, 190],
+    "left_shoulder": [187, 327],
+    "right_shoulder": [325, 327],
+    "left_hand": [132, 473],
+    "right_hand": [380, 473]
+  },
+  "palette": {
+    "suit": "#0a1d4b",
+    "red": "#e63832",
+    "yellow": "#f6c642",
+    "outline": "#101820",
+    "skin": "#d3a07e",
+    "hair": "#8a694e"
+  },
+  "visual_traits": ["short swept light-brown hair", "stronger eyebrows", "angular facial proportions", "dark-blue suit with red and yellow accents"]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-character-id="kimi_antonelli" data-design-version="1">
+  <title id="title">Editorial racing driver character: Kimi Antonelli</title>
+  <desc id="desc">Original editorial cartoon with modular animation layers.</desc>
+  <style>
+    .ol { stroke:#101820; stroke-width:5; stroke-linejoin:round; stroke-linecap:round; }
+    .fine { fill:none; stroke:#101820; stroke-width:4; stroke-linecap:round; }
+    .teal { fill:#19cbb8; }
+    .suit { fill:#171b20; }
+    .skin { fill:#c98c70; }
+    .hair { fill:#24242a; }
+    .white { fill:#f4fbfa; }
+  </style>
+  <g id="torso" data-layer="torso">
+    <path class="suit ol" d="M165 496 L178 334 Q184 300 220 292 L292 292 Q328 300 334 334 L347 496 Z"/>
+    <path class="teal" d="M181 337 L218 309 L232 319 L203 362 Z"/>
+    <path class="teal" d="M331 337 L294 309 L280 319 L309 362 Z"/>
+    <path class="white" d="M242 303 L256 328 L270 303 L274 371 L256 389 L238 371 Z"/>
+    <path class="fine" d="M205 397 H307"/>
+    <path class="fine" d="M224 425 H288"/>
+    <path class="teal" d="M171 482 H341 V496 H171 Z"/>
+  </g>
+  <g id="number" data-layer="number">
+    <text x="256" y="462" text-anchor="middle" font-family="Barlow Condensed,Arial,sans-serif" font-weight="700" font-size="70" fill="#f4fbfa">12</text>
+  </g>
+  <g id="neck" data-layer="neck">
+    <path class="skin ol" d="M229 259 L283 259 L287 309 Q256 330 225 309 Z"/>
+    <path class="fine" d="M234 285 Q256 300 278 285"/>
+  </g>
+  <g id="head" data-layer="head">
+    <ellipse class="skin ol" cx="180" cy="205" rx="17" ry="25"/>
+    <ellipse class="skin ol" cx="332" cy="205" rx="17" ry="25"/>
+    <path class="skin ol" d="M177 158 Q181 93 256 85 Q331 93 335 158 L325 230 Q315 283 256 298 Q197 283 187 230 Z"/>
+    <path fill="#b5745f" opacity=".45" d="M190 214 Q207 243 217 246 Q210 276 226 284 Q196 267 187 230 Z"/>
+  </g>
+  <g id="hair" data-layer="hair">
+    <path class="hair ol" d="M176 171 Q158 121 191 87 Q224 53 260 72 Q296 57 329 88 Q352 110 339 171 Q326 151 315 137 Q300 155 282 130 Q266 155 247 130 Q226 156 208 132 Q194 153 176 171 Z"/>
+    <path class="hair ol" d="M183 132 Q179 96 210 79 Q225 70 238 82 Q218 93 222 119 Q209 135 183 132 Z"/>
+    <path class="hair ol" d="M215 107 Q224 69 254 75 Q269 79 270 96 Q248 98 246 124 Q229 132 215 107 Z"/>
+    <path class="hair ol" d="M253 101 Q269 63 299 81 Q313 90 306 106 Q283 103 278 130 Q262 134 253 101 Z"/>
+    <path class="hair ol" d="M294 112 Q307 79 331 101 Q347 117 338 147 Q326 135 314 136 Z"/>
+    <path class="fine" d="M193 145 Q205 128 219 143"/>
+    <path class="fine" d="M237 132 Q249 114 263 131"/>
+    <path class="fine" d="M281 132 Q294 113 307 135"/>
+  </g>
+  <g id="eyebrows" data-layer="eyebrows">
+    <path class="fine" d="M207 166 Q228 151 244 164"/>
+    <path class="fine" d="M268 164 Q286 151 307 166"/>
+  </g>
+  <g id="eyes" data-layer="eyes">
+    <ellipse class="white ol" cx="225" cy="187" rx="18" ry="14"/>
+    <ellipse class="white ol" cx="287" cy="187" rx="18" ry="14"/>
+    <circle fill="#101820" cx="228" cy="188" r="7"/>
+    <circle fill="#101820" cx="284" cy="188" r="7"/>
+  </g>
+  <g id="nose" data-layer="nose">
+    <path class="fine" d="M257 174 L249 216 L264 220"/>
+  </g>
+  <g id="mouth" data-layer="mouth">
+    <path class="fine" d="M232 246 Q256 255 280 246"/>
+  </g>
+  <g id="left_arm" data-layer="left_arm">
+    <path class="suit ol" d="M183 323 Q149 336 133 377 L118 458 Q124 477 148 472 L169 399 L203 359 Z"/>
+    <path class="teal" d="M135 377 L160 367 L170 385 L140 401 Z"/>
+    <path class="skin ol" d="M117 455 Q103 477 121 493 Q143 505 155 483 L148 466 Z"/>
+  </g>
+  <g id="right_arm" data-layer="right_arm">
+    <path class="suit ol" d="M329 323 Q363 336 379 377 L394 458 Q388 477 364 472 L343 399 L309 359 Z"/>
+    <path class="teal" d="M377 377 L352 367 L342 385 L372 401 Z"/>
+    <path class="skin ol" d="M395 455 Q409 477 391 493 Q369 505 357 483 L364 466 Z"/>
+  </g>
+</svg>

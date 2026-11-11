@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-character-id="max_verstappen" data-design-version="1">
+  <title id="title">Editorial racing driver character: Max Verstappen</title>
+  <desc id="desc">Original editorial cartoon with modular animation layers.</desc>
+  <style>
+    .ol { stroke:#101820; stroke-width:5; stroke-linejoin:round; stroke-linecap:round; }
+    .fine { fill:none; stroke:#101820; stroke-width:4; stroke-linecap:round; }
+    .suit { fill:#0a1d4b; }
+    .red { fill:#e63832; }
+    .yellow { fill:#f6c642; }
+    .skin { fill:#d3a07e; }
+    .hair { fill:#7b6a5a; }
+    .hair-light { fill:#9d8a76; }
+    .white { fill:#f4fbfa; }
+  </style>
+  <g id="torso" data-layer="torso">
+    <path class="suit ol" d="M165 496 L178 334 Q184 300 220 292 L292 292 Q328 300 334 334 L347 496 Z"/>
+    <path class="red" d="M181 337 L218 309 L232 319 L203 362 Z"/>
+    <path class="red" d="M331 337 L294 309 L280 319 L309 362 Z"/>
+    <path class="yellow" d="M190 351 L207 337 L219 350 L202 365 Z"/>
+    <path class="yellow" d="M322 351 L305 337 L293 350 L310 365 Z"/>
+    <path class="white" d="M242 303 L256 328 L270 303 L274 371 L256 389 L238 371 Z"/>
+    <path class="fine" d="M205 397 H307"/>
+    <path class="fine" d="M224 425 H288"/>
+    <path class="red" d="M171 482 H341 V496 H171 Z"/>
+  </g>
+  <g id="number" data-layer="number">
+    <text x="256" y="462" text-anchor="middle" font-family="Barlow Condensed,Arial,sans-serif" font-weight="700" font-size="70" fill="#f4fbfa">3</text>
+  </g>
+  <g id="neck" data-layer="neck">
+    <path class="skin ol" d="M229 259 L283 259 L287 309 Q256 330 225 309 Z"/>
+    <path class="fine" d="M234 285 Q256 300 278 285"/>
+  </g>
+  <g id="head" data-layer="head">
+    <ellipse class="skin ol" cx="180" cy="205" rx="17" ry="25"/>
+    <ellipse class="skin ol" cx="332" cy="205" rx="17" ry="25"/>
+    <path class="skin ol" d="M177 158 Q181 93 256 85 Q331 93 335 158 L329 228 Q322 268 301 288 Q280 304 256 307 Q232 304 211 288 Q190 268 183 228 Z"/>
+    <path fill="#bd805f" opacity=".42" d="M186 212 Q204 243 216 247 Q213 276 230 290 Q198 274 183 228 Z"/>
+  </g>
+  <g id="hair" data-layer="hair" transform="translate(-41 -9) scale(1.16 1.07)">
+    <path class="hair ol" d="M190 190 C184 174 184 151 190 132 C189 113 198 97 214 87 C227 80 242 77 256 79 C278 79 299 86 313 99 C324 110 328 127 324 143 C328 159 326 177 320 190 C314 188 310 181 309 172 C307 158 302 145 293 134 C285 128 278 126 270 127 C262 128 255 133 248 135 C242 136 237 131 229 130 C221 129 216 135 210 142 C202 157 199 176 198 187 C195 189 192 190 190 190 Z"/>
+    <path fill="#655647" opacity=".58" d="M190 132 C185 151 186 174 191 188 C194 188 196 186 198 183 C197 164 201 150 209 138 C204 126 198 124 190 132 Z"/>
+    <path fill="#655647" opacity=".58" d="M313 101 C321 114 325 128 322 144 C326 161 324 178 319 188 C314 184 312 178 311 170 C310 157 305 147 297 140 C300 125 301 112 313 101 Z"/>
+    <path fill="none" stroke="#9d8a76" stroke-width="3" stroke-linecap="round" d="M203 107 C219 94 237 89 255 90"/>
+    <path fill="none" stroke="#9d8a76" stroke-width="3" stroke-linecap="round" d="M264 90 C282 91 298 99 309 112"/>
+    <path fill="none" stroke="#9d8a76" stroke-width="3" stroke-linecap="round" d="M199 125 C205 118 212 112 219 106"/>
+  </g>
+  <g id="eyebrows" data-layer="eyebrows">
+    <path class="fine" d="M205 162 Q227 149 245 161"/>
+    <path class="fine" d="M267 161 Q287 149 309 162"/>
+  </g>
+  <g id="eyes" data-layer="eyes">
+    <ellipse class="white ol" cx="226" cy="187" rx="16" ry="13"/>
+    <ellipse class="white ol" cx="286" cy="187" rx="16" ry="13"/>
+    <circle fill="#456b95" stroke="#101820" stroke-width="3" cx="228" cy="188" r="6"/>
+    <circle fill="#456b95" stroke="#101820" stroke-width="3" cx="284" cy="188" r="6"/>
+  </g>
+  <g id="nose" data-layer="nose">
+    <path class="fine" d="M257 174 L249 216 L264 220"/>
+  </g>
+  <g id="mouth" data-layer="mouth">
+    <path class="fine" d="M232 246 Q256 253 280 246"/>
+  </g>
+  <g id="left_arm" data-layer="left_arm">
+    <path class="suit ol" d="M183 323 Q149 336 133 377 L118 458 Q124 477 148 472 L169 399 L203 359 Z"/>
+    <path class="red" d="M135 377 L160 367 L170 385 L140 401 Z"/>
+    <path class="yellow" d="M143 384 L159 377 L166 389 L149 397 Z"/>
+    <path class="skin ol" d="M117 455 Q103 477 121 493 Q143 505 155 483 L148 466 Z"/>
+  </g>
+  <g id="right_arm" data-layer="right_arm">
+    <path class="suit ol" d="M329 323 Q363 336 379 377 L394 458 Q388 477 364 472 L343 399 L309 359 Z"/>
+    <path class="red" d="M377 377 L352 367 L342 385 L372 401 Z"/>
+    <path class="yellow" d="M369 384 L353 377 L346 389 L363 397 Z"/>
+    <path class="skin ol" d="M395 455 Q409 477 391 493 Q369 505 357 483 L364 466 Z"/>
+  </g>
+</svg>

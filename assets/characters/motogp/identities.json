@@ -1,0 +1,38 @@
+{
+  "marc_marquez": {
+    "display_name": "Marc Márquez",
+    "racing_number": "93",
+    "primary_color": "#F12E2E",
+    "secondary_color": "#18232E",
+    "accent_color": "#FFFFFF",
+    "helmet_pattern": "angular",
+    "side_asset": "bike_side_master.svg",
+    "helmet_asset": "helmet_badge_master.svg",
+    "raster_bike_asset": "../motogp_raster/marc_marquez/bike_side.png",
+    "raster_helmet_asset": "../motogp_raster/marc_marquez/helmet_badge.png"
+  },
+  "jorge_martin": {
+    "display_name": "Jorge Martín",
+    "racing_number": "89",
+    "primary_color": "#7E32D7",
+    "secondary_color": "#18232E",
+    "accent_color": "#F04A9B",
+    "helmet_pattern": "angular",
+    "side_asset": "bike_side_master.svg",
+    "helmet_asset": "helmet_badge_master.svg",
+    "raster_bike_asset": "../motogp_raster/jorge_martin/bike_side.png",
+    "raster_helmet_asset": "../motogp_raster/jorge_martin/helmet_badge.png"
+  },
+  "marco_bezzecchi": {
+    "display_name": "Marco Bezzecchi",
+    "racing_number": "72",
+    "primary_color": "#F1E51E",
+    "secondary_color": "#18232E",
+    "accent_color": "#111820",
+    "helmet_pattern": "angular",
+    "side_asset": "bike_side_master.svg",
+    "helmet_asset": "helmet_badge_master.svg",
+    "raster_bike_asset": "../motogp_raster/marco_bezzecchi/bike_side.png",
+    "raster_helmet_asset": "../motogp_raster/marco_bezzecchi/helmet_badge.png"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "moto-motion.narration.v1",
+  "project": "motogp_lean_explainer",
+  "title": "How MotoGP Bikes Lean So Far Without Falling",
+  "language": "en-US",
+  "duration_seconds": 30.0,
+  "format": {
+    "aspect_ratio": "9:16",
+    "preview": {"width": 540, "height": 960, "fps": 30},
+    "production": {"width": 1080, "height": 1920, "fps": 60}
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice_id": "af_heart",
+    "speed": 1.06,
+    "style": "confident technical motorsport documentary",
+    "pace": "controlled, visual-first, with clean pauses at each physics reveal"
+  },
+  "synthesis": {"sample_rate": 24000, "channels": 1, "normalization": "peak-minus-1db"},
+  "segments": [
+    {
+      "id": "lean_reveal",
+      "start_seconds": 0.0,
+      "end_seconds": 4.0,
+      "text": "At extreme lean, a MotoGP bike looks ready to fall. So why doesn't it?",
+      "visual_cue": "Front-view motorcycle freezes at lean with an illustrative angle arc."
+    },
+    {
+      "id": "force_balance",
+      "start_seconds": 4.0,
+      "end_seconds": 9.0,
+      "text": "Gravity pulls down, while the road pushes up and inward. Lean aligns the combined bike and rider with that road force.",
+      "visual_cue": "Gravity, lateral grip, and resultant road-force vectors appear."
+    },
+    {
+      "id": "contact_patch",
+      "start_seconds": 9.0,
+      "end_seconds": 14.0,
+      "text": "This small contact patch supplies the lateral force that bends the path. Body position never removes that demand.",
+      "visual_cue": "Tyre contact patch and lateral shear arrows fill the frame."
+    },
+    {
+      "id": "rider_comparison",
+      "start_seconds": 14.0,
+      "end_seconds": 20.0,
+      "text": "For the same speed and radius, hanging off shifts the combined center of mass inward. The same required combined lean can use less motorcycle lean.",
+      "visual_cue": "Aligned and hanging-off riders share the same illustrative combined lean."
+    },
+    {
+      "id": "corner_exit",
+      "start_seconds": 20.0,
+      "end_seconds": 26.0,
+      "text": "That can create tyre and chassis clearance, or useful operating margin. On exit, the rider recenters as the bike stands up.",
+      "visual_cue": "Motorcycle and rider smoothly return toward upright while the center of mass remains highlighted."
+    },
+    {
+      "id": "final_payoff",
+      "start_seconds": 26.0,
+      "end_seconds": 30.0,
+      "text": "The goal is not maximum lean. It is the right combined geometry. Lean smarter, not just further.",
+      "visual_cue": "Final headline: LEAN SMARTER. NOT JUST FURTHER."
+    }
+  ]
+}

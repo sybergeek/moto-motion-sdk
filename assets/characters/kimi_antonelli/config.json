@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "kimi_antonelli",
+  "display_name": "Andrea Kimi Antonelli",
+  "driver_number": 12,
+  "design_version": 1,
+  "source_note": "Original RaceXplained editorial illustration. Visual cues were informed by public driver imagery; no illustration was copied or traced.",
+  "canvas": { "width": 512, "height": 512, "view_box": "0 0 512 512" },
+  "canonical_svg": "canonical.svg",
+  "variants": {
+    "neutral": "variants/neutral.svg",
+    "smiling": "variants/smiling.svg",
+    "surprised": "variants/surprised.svg",
+    "celebrating": "variants/celebrating.svg",
+    "pointing": "variants/pointing.svg"
+  },
+  "layer_ids": ["torso", "number", "neck", "head", "hair", "eyes", "eyebrows", "nose", "mouth", "left_arm", "right_arm"],
+  "number": {
+    "anchor": [256, 433],
+    "height": 70,
+    "font_family": "Barlow Condensed",
+    "font_weight": "BOLD",
+    "color": "#f4fbfa"
+  },
+  "facial_geometry": {
+    "face_width": 158,
+    "eye_width": 36,
+    "eye_height": 28,
+    "eye_gap": 26,
+    "eye_centers": [[225, 187], [287, 187]],
+    "hairstyle": { "direction": "wavy fringe", "volume": "high", "part": "center-soft", "silhouette": "separated curls" }
+  },
+  "anchors": {
+    "character_origin": [256, 496],
+    "head_center": [256, 190],
+    "left_shoulder": [187, 327],
+    "right_shoulder": [325, 327],
+    "left_hand": [132, 473],
+    "right_hand": [380, 473]
+  },
+  "palette": {
+    "suit": "#171b20",
+    "teal": "#19cbb8",
+    "outline": "#101820",
+    "skin": "#c98c70",
+    "hair": "#24242a"
+  },
+  "visual_traits": ["dark wavy hair", "youthful proportions", "expressive eyebrows", "black and teal racing suit"]
+}

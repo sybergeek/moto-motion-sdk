@@ -1,0 +1,11 @@
+{
+  "schema": "moto-motion.layout-profiles.v1",
+  "safe_area_profiles": {
+    "instagram_reels_v1": {"left": 0.1056, "right": 0.1056, "top": 0.09375, "bottom": 0.1953},
+    "archival_master": {"left": 0.0, "right": 0.0, "top": 0.0, "bottom": 0.0}
+  },
+  "export_profiles": {
+    "instagram_reels_v1": {"width": 1080, "height": 1920, "fps": 30, "video_codec": "h264", "audio_codec": "aac", "audio_sample_rate": 48000, "safe_area_profile": "instagram_reels_v1"},
+    "archival_master": {"width": 2160, "height": 3840, "fps": 30, "video_codec": "h264", "audio_codec": "pcm_s16le", "audio_sample_rate": 48000, "safe_area_profile": "archival_master"}
+  }
+}

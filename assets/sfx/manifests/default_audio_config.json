@@ -1,0 +1,22 @@
+{
+  "schema": "moto-motion.audio-config.v1",
+  "audio": {
+    "narration_priority": true,
+    "auto_ducking": true,
+    "speech_gap_scheduling": true,
+    "sfx": {
+      "global_gain_db": -3,
+      "bus_makeup_gain_db": 12,
+      "ui_duck_db": -6,
+      "transition_duck_db": -9,
+      "vehicle_duck_db": -15,
+      "impact_duck_db": -10
+    },
+    "ducking": {
+      "attack_ms": 40,
+      "release_ms": 250,
+      "lookahead_ms": 50
+    },
+    "dynamic_eq_engines": false
+  }
+}
