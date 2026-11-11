@@ -19,6 +19,9 @@ If a production lesson is reusable, generalize it into `src/`, `tests/`,
 `docs/creative/`, or a generic example instead of committing the production
 directory that produced it.
 
+Follow [docs/repository_structure.md](docs/repository_structure.md) for the
+folder map and placement rules before adding new files.
+
 ## Development setup
 
 ```bash

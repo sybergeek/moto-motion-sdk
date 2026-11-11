@@ -13,17 +13,14 @@ Reel commands and outputs remain unchanged.
 
 ## Quick start
 
-```bash
-PYTHONPATH=src ./.venv/bin/python examples/dirty_air_carousel.py
-```
-
-This writes `output/carousels/f1_dirty_air_001/` with six 1080×1440 PNG slides,
-`preview.png`, `manifest.json`, `quality_report.json`, and `carousel.zip`.
+Carousel manifests are production inputs and should live with the local
+carousel workspace, not in the public SDK examples directory. Use the public
+renderer API with a local manifest:
 
 ```python
 from moto_motion.carousel import CarouselManifest, CarouselRenderer
 
-manifest = CarouselManifest.from_json("examples/dirty_air_carousel_manifest.json")
+manifest = CarouselManifest.from_json("path/to/local/carousel_manifest.json")
 renderer = CarouselRenderer(manifest)
 renderer.render()                 # all slides and contact sheet
 renderer.render(slide_index=3)    # regenerate one slide only

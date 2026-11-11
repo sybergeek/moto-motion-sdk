@@ -1,5 +1,9 @@
 # Moto Motion agent guidance
 
+Use [docs/repository_structure.md](docs/repository_structure.md) as the source
+of truth for public versus local files and for placing new code, examples,
+scripts, assets, and documentation.
+
 When planning, scripting or reviewing a RaceXplained reel, read [`docs/creative/retention_playbook.md`](docs/creative/retention_playbook.md) and use the templates under [`docs/creative/`](docs/creative/).
 
 For future reels, also read [`docs/creative/follower_conversion_playbook.md`](docs/creative/follower_conversion_playbook.md). Treat conversion as an optional editorial decision: define the audience and credible reason to return, verify any future or related-content reference, and do not append a CTA automatically.

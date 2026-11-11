@@ -14,7 +14,7 @@ config.pixel_height = 960
 config.frame_rate = 30
 
 BG, WHITE, TEAL, GOLD, RED, NAVY = "#0A1019", "#F4F7FA", "#1BC7BA", "#F4C95D", "#E63832", "#0A1D4B"
-TROPHY = Path(__file__).resolve().parents[1] / "assets/icons/trophy.svg"
+TROPHY = Path(__file__).resolve().parents[2] / "assets/icons/trophy.svg"
 
 
 class SFXDemo(Scene):

@@ -25,9 +25,10 @@ The intended public contents are:
 
 - `src/moto_motion/` — reusable Python models, geometry, effects, typography,
   video helpers, and Manim renderers.
-- `examples/` — curated component demonstrations and reusable example scenes;
+- `examples/` — curated component demonstrations and reusable example scenes,
+  organized into `explainers/`, `showcases/`, `creative/`, and `audio/`;
   reel-specific manifests, production examples, and one-off carousel drafts
-  remain local.
+  live under ignored `examples/local/`.
 - `tests/` — automated tests for the reusable SDK behavior.
 - `assets/` — original or reusable SVG assets, character registries, and
   canonical asset metadata. Optional local MotoGP raster packs and superbike
@@ -45,6 +46,8 @@ provenance rules. The reusable creative guidance is organized in the
 [carousel generation guide](docs/creative/carousel_generation.md),
 [carousel art direction](docs/creative/carousel_art_direction.md), and
 [creative quality gate](docs/creative/creative_quality_gate.md).
+The complete folder map and placement rules are in
+[docs/repository_structure.md](docs/repository_structure.md).
 
 ## Setup
 
@@ -155,7 +158,7 @@ bash scripts/render_components.sh
 The lab contains focused scenes for layout, trajectories, circuit geometry, F1/MotoGP vehicles, vehicle motion, camera behavior, typography, transitions, environment z-order, and choreography timelines. Render one module while iterating with:
 
 ```bash
-manim -pql examples/component_showcase.py TypographyComponentShowcase
+manim -pql examples/showcases/component_showcase.py TypographyComponentShowcase
 ```
 
 Render the premium 12–15 second showcase at 540×960/30 fps:
@@ -183,7 +186,7 @@ Synthesize a Kokoro narration bed from the timed manifest:
 
 ```bash
 python -m pip install -e '.[tts]'
-python scripts/narrate_manifest.py examples/braking_later_explainer.narration.json \
+python scripts/narrate_manifest.py examples/explainers/braking_later_explainer.narration.json \
   --output-dir media/audio/braking_later_explainer
 ```
 
@@ -229,18 +232,18 @@ python -m pytest
 Render Reel #2, “How MotoGP Bikes Lean So Far Without Falling,” at 540×960/30 fps:
 
 ```bash
-PYTHONPATH=src MOTO_MOTION_PREVIEW=1 ./.venv/bin/manim -ql --resolution 540,960 --frame_rate 30 examples/motogp_lean_explainer.py MotoGPLeanExplainer
+PYTHONPATH=src MOTO_MOTION_PREVIEW=1 ./.venv/bin/manim -ql --resolution 540,960 --frame_rate 30 examples/explainers/motogp_lean_explainer.py MotoGPLeanExplainer
 ```
 
 Render production 1080×1920/60 fps:
 
 ```bash
-PYTHONPATH=src ./.venv/bin/manim -qh --resolution 1080,1920 --frame_rate 60 examples/motogp_lean_explainer.py MotoGPLeanExplainer
+PYTHONPATH=src ./.venv/bin/manim -qh --resolution 1080,1920 --frame_rate 60 examples/explainers/motogp_lean_explainer.py MotoGPLeanExplainer
 ```
 
-The timed narration handoff is `examples/motogp_lean_explainer.narration.json`; it intentionally contains no synthesized audio.
+The timed narration handoff is `examples/explainers/motogp_lean_explainer.narration.json`; it intentionally contains no synthesized audio.
 
-The original racing-line demo remains available at `examples/racing_line_explainer.py`. The upgraded production demo is `examples/corner_exit_speed.py`; it uses illustrative speed values only and concludes with “THE EXIT MATTERS MORE.”
+The original racing-line demo remains available at `examples/explainers/racing_line_explainer.py`. The upgraded production demo is `examples/explainers/corner_exit_speed.py`; it uses illustrative speed values only and concludes with “THE EXIT MATTERS MORE.”
 
 ## Hybrid real-footage workflow
 

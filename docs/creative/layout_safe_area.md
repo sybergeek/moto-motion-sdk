@@ -66,7 +66,7 @@ Run the demonstration scene with a debug overlay:
 
 ```bash
 MOTO_MOTION_DEBUG_LAYOUT=1 MOTO_MOTION_DEMO_WIDTH=1080 MOTO_MOTION_DEMO_HEIGHT=1920 \
-  PYTHONPATH=src .venv/bin/python -m manim examples/layout_safe_area_demo.py LayoutSafeAreaDemo -s -ql
+  PYTHONPATH=src .venv/bin/python -m manim examples/showcases/layout_safe_area_demo.py LayoutSafeAreaDemo -s -ql
 ```
 
 For a 4K still, use `MOTO_MOTION_DEMO_WIDTH=2160 MOTO_MOTION_DEMO_HEIGHT=3840` and `-qh`. The debug overlay is conditional and is not added to normal exports; with element registrations it also draws classification-colored bounds and critical-anchor dots.

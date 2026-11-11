@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MOTO_MOTION_PREVIEW=1 manim -pql examples/component_showcase.py \
+MOTO_MOTION_PREVIEW=1 manim -pql examples/showcases/component_showcase.py \
   LayoutComponentShowcase \
   TrajectoryComponentShowcase \
   CircuitComponentShowcase \

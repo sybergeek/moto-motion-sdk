@@ -9,7 +9,7 @@ from moto_motion.scenes.portrait import PortraitScene
 from moto_motion.typography import TypographySystem
 
 
-FONT_DIR = Path(__file__).resolve().parents[1] / "assets" / "fonts" / "candidates"
+FONT_DIR = Path(__file__).resolve().parents[2] / "assets" / "fonts" / "candidates"
 
 
 class FontComparisonSheet(PortraitScene):

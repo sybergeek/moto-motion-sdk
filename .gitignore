@@ -35,6 +35,7 @@ docs/future-upgrades/
 docs/creative/reel_004_review.md
 
 # One-off reel/carousel manifests and production examples.
+examples/local/
 examples/reel_*.py
 examples/reel_*.json
 examples/future_reel_*.json

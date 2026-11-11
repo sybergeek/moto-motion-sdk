@@ -4,7 +4,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 MANIM="$ROOT/.venv/bin/manim"
-SOURCE="$ROOT/examples/character_system_showcase.py"
+SOURCE="$ROOT/examples/showcases/character_system_showcase.py"
 OUT="$ROOT/media/characters/kimi_antonelli"
 
 if [[ ! -x "$MANIM" ]]; then

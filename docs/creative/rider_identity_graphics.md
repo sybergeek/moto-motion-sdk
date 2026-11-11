@@ -20,7 +20,7 @@ Do not use anonymous abstract silhouettes for rider identity.
 Render the future-design mockup with:
 
 ```bash
-PYTHONPATH=src .venv/bin/manim -ql examples/rider_identity_showcase.py RiderIdentityShowcase
+PYTHONPATH=src .venv/bin/manim -ql examples/showcases/rider_identity_showcase.py RiderIdentityShowcase
 ```
 
 The source components are in

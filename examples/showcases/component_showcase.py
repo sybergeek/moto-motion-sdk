@@ -1,7 +1,7 @@
 """Small visual lab for each reusable Motorsport Motion component.
 
 Render individual classes while tuning one module at a time, for example:
-`manim -pql examples/component_showcase.py TypographyComponentShowcase`.
+`manim -pql examples/showcases/component_showcase.py TypographyComponentShowcase`.
 """
 
 from manim import *  # noqa: F403

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 set -euo pipefail
-MOTO_MOTION_PREVIEW=1 manim -ql examples/theme_showcase.py ThemeShowcase
+MOTO_MOTION_PREVIEW=1 manim -ql examples/showcases/theme_showcase.py ThemeShowcase
